@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Portfolio</title>
+
+  <!-- Bootstrap Css/CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="portfoliot.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- google font -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- icon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+     <!-- emailjs -->
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<!-- email sent -->
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "FaUpaHDwJUeJq2nnv",
+      });
+   })();
+</script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container" style="width: 90cm;">
+    <a class="navbar-brand" href="#">Anees Rahman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- my Section with Photo -->
+<section id="home" class="hero py-5 mb-5">
+  <div class="container">
+    <div class="row align-items-center text-center text-lg-start">
+      
+      <div class="col-lg-6 mb-4">
+        <h1 class="display-1 text-shadow-lg" style="font-weight: 700;">Hy Y'll I'm  <span style="color: white;">Anees Rahman</span></h1>
+        <p class="lead" style="font-weight: 400;">Aspiring Fullstack Developer | Programmer | Student</p>
+       <div class="hover-underline">
+         <a href="#projects" class="btn btn-light btn-lg mt-3">View My Work</a>
+       </div>
+      </div>
+       <div class="text-center"  data-aos="zoom-out-down">
+        <img class="img-fluid w-25" src="WhatsApp Image 2026-02-11 at 3.47.07 PM.jpeg" alt="Profile Photo">
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section-padding text-center " >
+  <div class="container">
+    <h2 class="mb-4">About Me</h2>
+    <p class="lead">
+      I am a passionate developer who loves building responsive and modern websites using Bootstrap and JavaScript.
+    </p>
+    
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section-padding bg-light">
+  <div class="container" >
+    <h2 class="text-center mb-5">what I Work With</h2>
+
+    <div class="row">
+      <div class="col-md-6 mb-4"  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+        <h6>HTML</h6>
+        <div class="progress">
+          <div class="progress-bar bg-primary" style="width: 90%;">90%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4"  data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+        <h6>CSS</h6>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 85%;">85%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4"  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+        <h6>Bootstrap</h6>
+        <div class="progress">
+          <div class="progress-bar bg-info" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4"  data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+        <h6>JavaScript</h6>
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section-padding">
+  <div class="container">
+    <h2 class="text-center mb-5">My Projects</h2>
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Project One</h5>
+            <p class="card-text">Short description of your project.</p>
+            <a href="#" class="btn btn-primary" style="background-color: gray;border: 0;">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Project Two</h5>
+            <p class="card-text">Short description of your project.</p>
+            <a href="#" class="btn btn-primary"style="background-color: gray;border: 0;">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Project Three</h5>
+            <p class="card-text">Short description of your project.</p>
+            <a href="#" class="btn btn-primary" style="background-color: gray;border: 0;">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding bg-light text-center">
+  <div class="container" style="text-decoration: none;">
+    <h2 class="mb-4">Contact Me</h2>
+    <div class="contact"><p>Email : aneesrahman-dev</p></div>
+
+<div data-aos="fade-right">
+  <form class="mt-4">
+  <div class="row">
+    
+    <!-- Name -->
+    <div class="col-md-6 mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <!-- Email -->
+    <div class="col-md-6 mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+    </div>
+
+  </div>
+
+  <!-- Subject -->
+  <div class="mb-3">
+    <label for="subject" class="form-label">Subject</label>
+    <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+  </div>
+
+  <!-- Message -->
+  <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="button" class="btn btn-dark px-4 mb-5" onclick="sendEmail()">Send Message</button>
+
+</form>
+</div>
+
+    <a href="" style=" text-decoration: none;"> <i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/" style="text-decoration: none;"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.instagram.com/aneesxrhmn/" style="text-decoration: none;"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center p-3" style="background-color: gray;">
+  © 2026 Anees Rahman. All Rights Reserved.
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="portfolio.js"></script>
+</body>
+</html>
